@@ -174,3 +174,21 @@ footer p {
   text-indent: 20%;
   font-weight: bold;
 }
+
+@media screen and (max-width: 576px) {
+  header nav {
+    order: 6;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  footer > div:first-child {
+    width: 100px;
+  }
+  footer nav {
+    justify-content: center;
+  }
+}
